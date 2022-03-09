@@ -99,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.078475714}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8103576, y: 0.8430486}
   m_EdgeRadius: 0
 --- !u!95 &6032499129734403138
 Animator:
@@ -258,7 +258,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.033762872, y: 0.1054225}
+  m_Offset: {x: -0.011066914, y: 0.1054225}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -269,7 +269,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.73439825, y: 0.24189806}
+  m_Size: {x: 0.5156908, y: 0.24189806}
   m_EdgeRadius: 0
 --- !u!114 &6032499130504884650
 MonoBehaviour:
@@ -284,6 +284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 6032499130352169073}
+  objectToAnim: {fileID: 6032499129734403140}
+  deadAnimDuration: 0.4
 --- !u!1 &6032499130585838887
 GameObject:
   m_ObjectHideFlags: 0
